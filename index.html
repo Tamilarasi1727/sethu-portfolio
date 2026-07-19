@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sethuraman K is a passionate frontend developer and computer science student building polished, responsive web experiences."
+    />
+    <title>Sethuraman K | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+      <p>Loading portfolio...</p>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Go to home section">SK</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#learning">Learning</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Sethuraman K</h1>
+          <div class="typing-wrap">
+            <span id="typed-text"></span>
+            <span class="cursor">|</span>
+          </div>
+          <p class="hero-description">
+            I am a passionate Computer Science student who enjoys building modern,
+            responsive, and user-friendly web applications. I continuously improve my
+            frontend skills while exploring full-stack development and love creating
+            clean, interactive digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-highlights">
+            <span>Responsive UI</span>
+            <span>Modern Animations</span>
+            <span>Learning Full-Stack</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <img
+              src="assets/images/profile-illustration.svg"
+              alt="Illustrated portrait of Sethuraman K"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Crafting elegant digital experiences</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <p>
+              I am a BSc Computer Science student currently in my 2nd year at SRM
+              Institute of Science and Technology, Ramapuram. My journey in web
+              development started with curiosity, and it has grown into a passion for
+              building modern, intuitive interfaces that solve real-world problems.
+            </p>
+            <p>
+              I enjoy learning frontend technologies, exploring full-stack concepts,
+              and creating projects that merge design, performance, and user experience.
+              I am a continuous learner, a team player, and someone who loves turning
+              ideas into polished digital products.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <ul class="info-list">
+              <li><strong>Name:</strong> Sethuraman K</li>
+              <li><strong>Education:</strong> BSc Computer Science</li>
+              <li><strong>College:</strong> SRM Institute of Science and Technology, Ramapuram</li>
+              <li><strong>Year:</strong> 2nd Year</li>
+              <li><strong>Role:</strong> Frontend Developer | Learning Full-Stack</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Core strengths and growing expertise</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML</h3>
+            <p>Building semantic and accessible web structures with clean markup.</p>
+            <div class="progress-track"><span data-width="90"></span></div>
+            <div class="progress-label"><span>90%</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS</h3>
+            <p>Designing premium layouts with responsive styling and visual polish.</p>
+            <div class="progress-track"><span data-width="85"></span></div>
+            <div class="progress-label"><span>85%</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Creating interactive, dynamic experiences with modern vanilla JS.</p>
+            <div class="progress-track"><span data-width="75"></span></div>
+            <div class="progress-label"><span>75%</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">🐍</div>
+            <h3>Python</h3>
+            <p>Exploring problem-solving, automation, and backend foundations.</p>
+            <div class="progress-track"><span data-width="70"></span></div>
+            <div class="progress-label"><span>70%</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="learning" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Currently Learning</p>
+          <h2>Expanding my full-stack skillset</h2>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card reveal">
+            <div class="learning-icon">🧩</div>
+            <h3>Full-Stack Development</h3>
+            <p>Learning end-to-end web development from interface to server logic.</p>
+          </article>
+          <article class="learning-card reveal">
+            <div class="learning-icon">🟢</div>
+            <h3>Modern JavaScript</h3>
+            <p>Improving my grasp of ES6+, async patterns, and dependable code.</p>
+          </article>
+          <article class="learning-card reveal">
+            <div class="learning-icon">🛠️</div>
+            <h3>Backend Development</h3>
+            <p>Exploring how applications work behind the scenes and scale gracefully.</p>
+          </article>
+          <article class="learning-card reveal">
+            <div class="learning-icon">🗄️</div>
+            <h3>Databases</h3>
+            <p>Studying data modeling, storage, and query fundamentals.</p>
+          </article>
+          <article class="learning-card reveal">
+            <div class="learning-icon">🔌</div>
+            <h3>REST APIs</h3>
+            <p>Connecting interfaces to services through clean and practical APIs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work with modern presentation</h2>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-media">
+            <img src="assets/images/img.jpeg" alt="Preview of the Flower Shop landing page project" />
+            <div class="project-overlay">
+              <span>Responsive UI</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Flower Shop Frontend Design</h3>
+            <p>
+              A sleek and responsive flower shop landing page built with HTML, CSS,
+              and JavaScript. It focuses on a clean visual hierarchy, smooth animations,
+              and an inviting user experience.
+            </p>
+            <ul class="tech-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Academic foundation and growth</h2>
+        </div>
+        <div class="education-card reveal">
+          <div class="education-badge">📘</div>
+          <h3>SRM Institute of Science and Technology, Ramapuram</h3>
+          <p class="degree">BSc Computer Science</p>
+          <p class="status">Currently in 2nd Year</p>
+          <p>
+            Building a strong base in computing concepts while developing practical web
+            development and design skills through hands-on projects and self-learning.
+          </p>
+        </div>
+      </section>
+
+      <section id="certifications" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Milestones in my learning journey</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <a class="cert-link" href="assets/certificates/web-development.pdf" target="_blank" rel="noreferrer">
+              <img src="assets/images/cer.jpeg" alt="Preview of the Web Development certificate" />
+              <div class="cert-icon">🏅</div>
+              <h3>Web Development</h3>
+              <p class="cert-meta">Issuer: Placeholder Organization</p>
+              <p class="cert-date">Date: 2026</p>
+              <p>Focused on building modern and responsive frontend experiences.</p>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <h3>Get in touch</h3>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:sethu@example.com">sethuramansethu1812@gmail.com</a></li>
+            </ul>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Sethuraman K. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
